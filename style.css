@@ -71,7 +71,7 @@ header {
     column-gap: 2.5rem;
 }
 
-.navLinks {
+.navbar {
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--text-color);
