@@ -226,7 +226,7 @@ header {
   text-transform: uppercase;
 }
 .home-btns i {
-  
+  font-size: 17px;
 }
 .dealer-btn{
   background: var(--third-color);
