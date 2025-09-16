@@ -165,5 +165,77 @@ header {
   font-size: 1rem;
   color: var(--second-color);
   text-transform: uppercase;
+}
+.border-home{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1dbd2;
+}
+.home-img{
+  max-width: 650px;
+  width: 100%;
+}
+.helmet-box img{
+  max-width: 140px;
+  width: 100%;
+}
+.helmet-box{
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+.helmet-box::after{
+  content: ;
+  position: absolute;
+  top: 60px;
+  width: 120%;
+  height: 124px;
+  border: 2px solid #e1dbd2;
+  z-index: -1;
+}
+.helmet-box a{
+  max-width: 100px;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text-color);
+  background: var(--third-color);
+  padding: 2px 8px;
+}
+.helmet-box i{
+  font-size: 18px;
+}
+.home-btn{
+  display: felx;
+  justify-content: center;
+  gap: 10px;
+}
+.home-btn a{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 14px;
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+.home-btns i {
   
+}
+.dealer-btn{
+  background: var(--third-color);
+}
+.ride-btn{
+  background: var(--bg-color);
+}
+home-btns a:hover{
+  background: var(--second-color);
+  color: var(--bg-color);
+  transition: 0.3s;
 }
