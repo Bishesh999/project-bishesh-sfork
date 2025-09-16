@@ -83,8 +83,8 @@ header {
     transition: 0.3s;
 }
 
-.sign-up,
-.mobile-sign-up {
+.signup,
+.mobile-signup {
     font-size: 0.9rem;
     font-weight: 500;
     padding: 8px 16px;
@@ -93,13 +93,13 @@ header {
     text-transform: uppercase;
 }
 
-.sign-up:hover,
-.mobile-sign-up:hover {
+.signup:hover,
+.mobile-signup:hover {
     background: var(--second-color);
     transition: 0.3s;
 }
 
-.mobile-sign-up {
+.mobile-signup {
     display: none;
 }
 
