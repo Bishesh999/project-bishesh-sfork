@@ -100,7 +100,7 @@ header{
   z-index: 200;
   transition: 0.3s;
 }
-.menu-icon-div{
+.menu-icon div{
   display: block;
   background: var(--text-color);
   height: 2px;
