@@ -71,14 +71,14 @@ header {
     column-gap: 2.5rem;
 }
 
-.navbar {
+.navlinks {
     font-size: 0.9rem;
     font-weight: 500;
     color: var(--text-color);
     text-transform: uppercase;
 }
 
-.navLinks:hover {
+.navlinks:hover {
     color: var(--main-color);
     transition: 0.3s;
 }
