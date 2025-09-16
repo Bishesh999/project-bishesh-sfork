@@ -130,3 +130,40 @@ header {
 .move .lin3{
   transform: rotate(45deg) translate(-5px,5px);
 }
+.home {
+  padding-top: 7rem !important;
+  background: var(--container-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.home h1{
+  font-family: "Racing Sans One",sans serif;
+  font-size: 5.2rem;
+  line-height: 4rem;
+  background: var(--bg-color);
+}
+.home-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.home-data{
+  display: grid;
+  gap: 1.5rem;
+}
+.home-box{
+  display: grid;
+  gap: 4px;
+}
+.home-box h3{
+  font-size: 0.9rem;
+}
+.home-box h2{
+  font-size: 1rem;
+  color: var(--second-color);
+  text-transform: uppercase;
+  
+}
