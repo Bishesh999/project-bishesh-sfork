@@ -234,7 +234,7 @@ header {
 .ride-btn{
   background: var(--bg-color);
 }
-home-btns a:hover{
+.home-btns a:hover{
   background: var(--second-color);
   color: var(--bg-color);
   transition: 0.3s;
