@@ -140,9 +140,9 @@ header {
 }
 .home h1{
   font-family: "Racing Sans One",sans-serif;
-  font-size: 5.2rem;
+  font-size: 3.5rem;
   line-height: 4rem;
-  background: var(--bg-color);
+  
 }
 .home-content{
   display: flex;
