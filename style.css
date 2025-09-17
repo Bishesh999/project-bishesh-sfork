@@ -127,7 +127,7 @@ header {
 .move .line2{
   opacity: 0;
 }
-.move .lin3{
+.move .line3{
   transform: rotate(45deg) translate(-5px,-5px);
 }
 .home {
