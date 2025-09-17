@@ -1,4 +1,4 @@
 let menu = document.querySelector('.menu-icon');
-meny.onclick = () > {
+menu.onclick = () > {
   menu.classList.toggle("move")
 }
